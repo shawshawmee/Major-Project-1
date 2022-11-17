@@ -1,43 +1,39 @@
 .nav-link {
     color: #0E191D;
     font-size: 18px;
-    font-weight: bold;
+    font-weight: 200;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin-left: 10px;
 }
 .nav-link:hover {
-    color: #5E9EA0;
+    color: #2F1B14;
 }
-header {
+.bg-header {
     height: 100vh;
     min-height: 400px;
     background-size: cover;
-    background-image: url('images/header_bg.png');
-}
-.text {
-    color: #2F4F4E;
-}
-.bg-row {
-    background-color: #2F4F4E;
-    color: white;
+    background-image: url('images/header_bg.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
 }
 .text-card {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 200;
+    text-align: center;
 }
 .card-body {
-    background-color: #d3d3d3;
-    color: black;
-    font-weight: 500;
+    color: #0E191D;
+    font-weight: bold;
     text-align: center;
 }
 .btn {
+    background-color: #0E191D;
     border: 2px solid #0E191D;
-    color: #2F4F4E;
     cursor: pointer;
+    color: white;
 }
 .btn:hover {
-    background-color: #5E9EA0;
+    background-color: #2F1B14;
     color: white;
 }
 .section {
@@ -47,15 +43,13 @@ header {
     background-position: center center;
     background-repeat: no-repeat;
 }
-.social-text {
-    color: #264A4D;
+.bg-row {
+    background-color: #0E191D;
+    color: white;
 }
 small {
     font-weight: bold;
     font-size: 16px;
-}
-.bg-footer {
-    background-color: #d3d3d3;
 }
 .list-group {
     color: #0E191D;
@@ -72,5 +66,5 @@ small {
     color: #0E191D;
 }
 .bi:hover {
-    color: #5E9EA0;
+    color: #2F1B14;
 }
