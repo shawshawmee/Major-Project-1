@@ -1,7 +1,7 @@
 .nav-link {
     color: white;
     font-size: 18px;
-    font-weight: 500;
+    font-weight: 200;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin-left: 5px;
 }
@@ -21,7 +21,7 @@ header {
     background-color: #2F4F4E;
     color: white;
 }
-.text-color {
+.text-card {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 200;
 }
@@ -40,9 +40,27 @@ header {
     background-color: #2F4F4E;
   color: white;
 }
-.bg-text {
-    background-image: url('images/bg-text.jpg');
+.section {
+    background-image: url('images/section_4.png');
+    height: 100vh;
     background-size: cover;
     background-position: center center;
-    height: 100vh;
+    background-repeat: no-repeat;
+}
+.social-text {
+    color: #264A4D;
+}
+small {
+    font-weight: bold;
+    font-size: 16px;
+}
+.bg-footer {
+    background-color: #d3d3d3;
+}
+.list-group {
+    color: #0E191D;
+    font-size: 18px;
+    font-weight: 200;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 5px;
 }
