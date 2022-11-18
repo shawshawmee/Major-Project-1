@@ -1,9 +1,11 @@
+html, body {
+    overflow-x: hidden;
+}
 .nav-link {
     color: #0E191D;
     font-size: 18px;
     font-weight: 700;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    margin-left: 10px;
 }
 .nav-link:hover {
     color: #2F1B14;
@@ -102,4 +104,7 @@ small {
     display: flex;
     justify-content: center;
     text-align: center;
+}
+.text-border {
+    border: solid #0E191D;
 }
