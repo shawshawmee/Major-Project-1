@@ -91,10 +91,11 @@ small {
 }
 .text-header {
     background-color: white;
+    opacity: 0.8;
     color: #0E191D;
     font-family: Arial, Helvetica, sans-serif;
     margin-top: 100px;
-    margin-left: 50px;
+    margin-left: 20px;
     padding: 50px;
 }
 .text-customer {
