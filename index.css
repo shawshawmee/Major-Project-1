@@ -11,7 +11,7 @@ html, body {
     color: #2F1B14;
 }
 .bg-header {
-    height: 100vh;
+    height: 50vh;
     min-height: 400px;
     background-size: cover;
     background-image: url('images/header_bg.jpg');
@@ -26,6 +26,8 @@ html, body {
 .card-body {
     color: #0E191D;
     font-weight: bold;
+    text-align: center;
+    font-size: 10px;
 }
 .btn {
     background-color: #0E191D;
@@ -39,14 +41,10 @@ html, body {
 }
 .section {
     background-image: url('images/section_4.png');
-    height: 100vh;
+    height: 50vh;
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
-}
-.bg-row {
-    background-color: #0E191D;
-    color: white;
 }
 small {
     font-weight: bold;
@@ -83,7 +81,7 @@ small {
 /* for FEEDBACKS section */
 .header {
     background-image: url('images/coffee_drinker.jpg');
-    height: 100vh;
+    height: 50vh;
     min-height: 400px;
     background-size: cover;
     background-position: center center;
