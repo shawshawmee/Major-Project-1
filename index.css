@@ -105,3 +105,10 @@ small {
 .text-border {
     border: solid #0E191D;
 }
+/* For CONTACT US section */
+.bg-contact {
+    background-color: #0E191D;
+    color: white;
+    text-align: center;
+    padding: 50px;
+}

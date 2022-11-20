@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,10 +11,133 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="index.css">
 </head>
+
 <body>
-    
+    <!-- Navigation -->
+    <div class="col-lg-12">
+        <nav class="navbar navbar-light navbar-expand-lg bg-light" id="navbar">
+            <div class="container-fluid">
+                <a href="index.html"><img src="images/logo.png" alt="company logo"></a>
+                <button class="navbar-toggler me-3" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarToggler">
+                    <ul class="navbar-nav mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">HOME</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="products.html">PRODUCTS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="feedbacks.html">FEEDBACKS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contactus.html">CONTACT US</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <!-- CONTACT US Section -->
+    <div class="container">
+        <div class="row mt-5 mb-5">
+            <div class="col-sm-6 bg-contact">
+                <h1 class="fw-bold mb-3">OPEN</h1>
+                <h5>MONDAY - FRIDAY</h5>
+                <p class="fst-italic">7AM to 7PM</p>
+                <br>
+                <h5>SATURDAY - SUNDAY</h5>
+                <p class="fst-italic">9AM to 9PM</p>
+                <hr>
+                <h6>Poblacion Market, San Remigio, Cebu</h6>
+                <p class="fst-italic">(032)123-4567</p>
+                <p class="fst-italic">+639123456789</p>
+            </div>
+            <div class="col-sm-6 p-5 bg-light needs-validation" novalidate>
+                <h1 class="text-center fw-bold mb-3">SEND YOUR MESSAGE</h1>
+                <div>
+                    <label for="validation1" class="form-label"></label>
+                    <input type="text" class="form-control" id="validation1" placeholder="Name" required>
+                    <div class="invalid-feedback">
+                        This field is required.
+                    </div>
+                </div>
+                <div>
+                    <label for="validation2" class="form-label"></label>
+                    <input type="email" class="form-control" id="validation2" placeholder="E-mail" required>
+                    <div class="invalid-feedback">
+                        This field is required.
+                    </div>
+                </div>
+                <div>
+                    <label for="validation3" class="form-label"></label>
+                    <textarea class="form-control" id="validation3" rows="3" placeholder="Message" required></textarea>
+                    <div class="invalid-feedback">
+                        This field is required.
+                    </div>
+                </div>
+                <div class="col-12">
+                    <button class="btn mt-3" type="send">SEND</button>
+                </div>
+            </div>
+        </div>
+        <div class="p-5">
+            <h6 class="display-6 mb-3">For our safety, we must keep our masks on.
+            </h6>
+            <p>We live in troubled times. As such, we kindly ask our dear customers to keep their masks on while
+                ordering for their safety and security.</p>
+        </div>
+    </div>
+    <!-- FOOTER -->
+    <hr>
+    <div class="row bg-footer d-flex justify-content-center">
+        <div class="col-lg-3">
+            <ul class="nav flex-column">
+                <li class="nav-item">
+                    <a class="nav-link" href="#menu">IN-STORE MENU</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">STORE LOCATOR</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">FRANCHISING</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">CONTACT US</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">PRIVACY POLICY</a>
+                </li>
+            </ul>
+            <div class="pt-3 ms-3">
+                <a href=""><i class="bi bi-facebook display-6 ms-2"></i></a>
+                <span><a href=""><i class="bi bi-instagram display-6 ms-2"></i></a></span>
+                <span><a href=""><i class="bi bi-twitter display-6 ms-2"></i></a></span>
+            </div>
+        </div>
+        <div class="col-lg-4 gx-5 mt-3 ms-2">
+            <h4>SIGN-UP FOR UPDATES</h4>
+            <p class="text-footer">Promotions, new products and sales. Directly to your inbox.</p>
+            <br>
+            <div class="col-9">
+                <div class="input-group mb-3">
+                    <input type="text" class="form-control" placeholder="you@email.com" aria-label="Recipient's E-mail"
+                        aria-describedby="button-addon2">
+                    <button class="btn" type="button" id="button-addon2">Sign-Up</button>
+                </div>
+            </div>
+        </div>
+        <div class="text-footer d-flex justify-content-center">
+            <p>Copyright ⓒ 2022. <span><a href="#" class="bi">Sip N' Drip</a></span></p>
+        </div>
+    </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
-    crossorigin="anonymous"></script>
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
