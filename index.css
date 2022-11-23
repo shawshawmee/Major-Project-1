@@ -1,15 +1,19 @@
-html, body {
+html,
+body {
     overflow-x: hidden;
 }
+
 .nav-link {
     color: #0E191D;
     font-size: 18px;
     font-weight: 700;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+
 .nav-link:hover {
     color: #2F1B14;
 }
+
 .bg-header {
     height: 50vh;
     min-height: 400px;
@@ -18,30 +22,36 @@ html, body {
     background-position: center center;
     background-repeat: no-repeat;
 }
+
 .text-card {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 200;
     text-align: center;
 }
+
 .card-body {
     color: #0E191D;
     font-weight: bold;
     text-align: center;
 }
+
 .btn {
     background-color: #0E191D;
     border: 2px solid #0E191D;
     cursor: pointer;
     color: white;
 }
+
 .btn:hover {
     background-color: #2F1B14;
     color: white;
 }
+
 .bg-row {
     background-color: #0E191D;
     color: white;
 }
+
 .section {
     background-image: url('images/section_4.png');
     height: 50vh;
@@ -49,10 +59,12 @@ html, body {
     background-position: center center;
     background-repeat: no-repeat;
 }
+
 small {
     font-weight: bold;
     font-size: 16px;
 }
+
 .list-group {
     color: #0E191D;
     font-size: 18px;
@@ -60,27 +72,33 @@ small {
     font-family: Arial, Helvetica, sans-serif;
     margin-left: 5px;
 }
+
 .text-footer {
     color: #0E191D;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+
 .bi {
     color: #0E191D;
 }
+
 .bi:hover {
     color: #2F1B14;
 }
+
 /* for PRODUCTS section */
 .menu {
     font-weight: bold;
     font-size: 80px;
     align-items: baseline;
 }
+
 .pastries {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: bolder;
     color: #0E191D;
 }
+
 /* for FEEDBACKS section */
 .header {
     background-image: url('images/coffee_drinker.jpg');
@@ -92,6 +110,7 @@ small {
     display: flex;
     align-items: baseline;
 }
+
 .text-header {
     background-color: white;
     opacity: 0.8;
@@ -101,14 +120,17 @@ small {
     margin-left: 20px;
     padding: 30px;
 }
+
 .text-customer {
     display: flex;
     justify-content: center;
     text-align: center;
 }
+
 .text-border {
     border: solid #0E191D;
 }
+
 /* For CONTACT US section */
 .bg-contact {
     background-color: #0E191D;
