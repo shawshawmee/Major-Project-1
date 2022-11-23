@@ -38,6 +38,10 @@ html, body {
     background-color: #2F1B14;
     color: white;
 }
+.bg-row {
+    background-color: #0E191D;
+    color: white;
+}
 .section {
     background-image: url('images/section_4.png');
     height: 50vh;
@@ -86,7 +90,7 @@ small {
     background-position: center center;
     background-repeat: no-repeat;
     display: flex;
-    align-items:baseline;
+    align-items: baseline;
 }
 .text-header {
     background-color: white;
